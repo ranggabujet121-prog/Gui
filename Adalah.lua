@@ -45,6 +45,12 @@ local Button = UniversalTab:CreateButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Equinox-Hub/main/aimbot.lua", true))()
    end,
 })
+local Button = UniversalTab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
+   end,
+})
 
 local GameTab = Window:CreateTab("Spesific Games", "rewind")
 local Section = GameTab:CreateSection("Script Game")
@@ -59,7 +65,7 @@ local Button = GameTab:CreateButton({
 local Button = GameTab:CreateButton({
    Name = "Escape the tsunami for brainrots",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()
    -- The function that takes place when the button is pressed
    end,
 })
