@@ -46,7 +46,7 @@ local Button = UniversalTab:CreateButton({
    end,
 })
 local Button = UniversalTab:CreateButton({
-   Name = "Button Example",
+   Name = "Invisible Gui",
    Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
    end,
